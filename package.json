@@ -12,5 +12,8 @@
   },
   "devDependencies": {
     "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "hevue-img-preview": "^3.6.2"
   }
 }
