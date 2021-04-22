@@ -1,25 +1,14 @@
-# 多图预览
+# 点击遮罩层关闭
 
-多图预览用到的配置如下
+点击遮罩层关闭用到的配置如下
 
 | 字段        | 类型    | 默认值 | 备注                         |
 | ----------- | ------- | ------ | ---------------------------- |
-| multiple    | Boolean | false  | 是否多图预览                 |
-| nowImgIndex | Number  | 0      | 多图预览时默认显示的图片下标 |
-| imgList     | Array   | 无     | 多图预览时传入的图片数组     |
+| clickMaskCLose    | Boolean | false                | 是否可以点击遮罩层关闭         |
 
-## multiple
+## clickMaskCLose
 
-如果您想启用多图预览， 则需要将 `multiple` 属性设为 `true` ,来告诉组件您开启了多图预览模式
-
-## nowImgIndex
-
-多图预览的时候，您也许并不是每次都想从数组的第一张图片开始预览，我们为您提供了 `nowImgIndex` 属性，您只需要将需要预览的图片的下标赋值给 `nowImgIndex` 属性即可（注意是下标哦，下标从 0 开始）。
-
-## imgList
-
-当您开启了多图预览模式后，原有的 `src` 属性将失效，您需要将需要预览的图片以数组的形式赋值给 `imgList` 属性
-
+有时候我们并不想去点击右上角小小的关闭按钮去关闭图片预览，而是想随手一点就能关闭，我们为此提供了点击遮罩层关闭的功能，只不过它是默认关闭的，如果您需要开启点击遮罩层关闭的功能，只需要将 `clickMaskCLose` 属性设为 `true` 即可。
 
 ## 示例
 
@@ -51,7 +40,7 @@
   </div>
 </template>
 ```
-```javascript {15-17}
+```javascript {18}
 <script>
 export default {
   data () {
@@ -68,7 +57,8 @@ export default {
       this.$hevueImgPreview({
         multiple: true,
         nowImgIndex: index,
-        imgList: this.urlData
+        imgList: this.urlData,
+        clickMaskCLose: true
       })
     }
   }
@@ -93,7 +83,8 @@ export default {
       this.$hevueImgPreview({
         multiple: true,
         nowImgIndex: index,
-        imgList: this.urlData
+        imgList: this.urlData,
+        clickMaskCLose: true
       })
     }
   }

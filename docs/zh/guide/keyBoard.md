@@ -1,11 +1,3 @@
-<!--
- * @Author: 贺永胜
- * @Date: 2021-04-22 21:43:47
- * @email: 1378431028@qq.com
- * @LastEditors: 贺永胜
- * @LastEditTime: 2021-04-22 22:57:03
- * @Description: file content
--->
 # 快捷键
 
 快捷键用到的配置如下

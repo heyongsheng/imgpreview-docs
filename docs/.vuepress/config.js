@@ -3,7 +3,7 @@
  * @Date: 2021-04-21 16:49:48
  * @email: 1378431028@qq.com
  * @LastEditors: 贺永胜
- * @LastEditTime: 2021-04-22 21:28:47
+ * @LastEditTime: 2021-04-22 23:51:41
  * @Description: file content
  */
 module.exports = {
@@ -28,7 +28,10 @@ module.exports = {
           'options',
           'onePicture',
           'morePicture',
-          'keyBoard'
+          'keyBoard',
+          'clickMaskCLose',
+          'customColor'
+          
         ]
       }]
     },
