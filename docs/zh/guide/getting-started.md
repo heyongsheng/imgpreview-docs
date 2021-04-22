@@ -1,11 +1,3 @@
-<!--
- * @Author: 贺永胜
- * @Date: 2021-04-22 11:59:44
- * @email: 1378431028@qq.com
- * @LastEditors: 贺永胜
- * @LastEditTime: 2021-04-22 17:48:47
- * @Description: 安装及使用
--->
 # 安装及使用
 
 <a href='https://github.com/heyongsheng/hevue-img-preview'><img src='https://img.shields.io/github/stars/heyongsheng?style=social' alt='star'></img></a>

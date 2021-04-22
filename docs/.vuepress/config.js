@@ -3,12 +3,12 @@
  * @Date: 2021-04-21 16:49:48
  * @email: 1378431028@qq.com
  * @LastEditors: 贺永胜
- * @LastEditTime: 2021-04-22 17:50:33
+ * @LastEditTime: 2021-04-22 21:28:47
  * @Description: file content
  */
 module.exports = {
   title: 'hevue-img-preview',
-  description: 'Just playing around',
+  description: '本组件是一个基于 vue 编写的 vue 图片预览组件，支持 pc 和手机端，支持单图和多图预览，仅传入一个图片地址，即可实现图片预览效果。手机端支持单指拖拽和双指缩放。页面各组件颜色均可可自定义，实现个性化设计，如果能帮上你，希望可以移步 GitHub ，或者码云 给个小星星，如果有任何使用意见或建议，也欢迎回复或者提交 issure',
   themeConfig: {
     nav: [{
       text: '测试',
@@ -25,13 +25,16 @@ module.exports = {
         title: '进阶',
         collapsable: false,
         children: [
-          ['options', '配置项'],
-          ['onePicture', '单图预览'],
-          ['morePicture', '多图预览']
+          'options',
+          'onePicture',
+          'morePicture',
+          'keyBoard'
         ]
       }]
     },
     sidebarDepth: 2,
-    lastUpdated: '最后更新日期'
+    repo: 'heyongsheng/hevue-img-preview',
+    lastUpdated: '最后更新日期',
+    evergreen: true
   }
 }

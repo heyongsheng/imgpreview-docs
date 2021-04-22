@@ -1,14 +1,6 @@
-<!--
- * @Author: 贺永胜
- * @Date: 2021-04-22 17:37:13
- * @email: 1378431028@qq.com
- * @LastEditors: 贺永胜
- * @LastEditTime: 2021-04-22 17:41:01
- * @Description: 单图预览
--->
 # 单图预览
 
-单图预览用到的配置项有以下配置
+单图预览用到的配置如下
 
 | 字段              | 类型    | 默认值               | 备注                           |
 | ----------------- | ------- | -------------------- | ------------------------------ |
@@ -17,6 +9,15 @@
 ## src
 
 如果您需要预览单图，仅需将图片地址作为参数 `url` 传入即可。
+
+```javascript
+this.$hevueImgPreview(url)
+// 当您有其他配置项需要修改时，也可这样写
+this.$hevueImgPreview({
+  url: url,
+  keyboard: true
+})
+```
 
 ## 示例
 
@@ -43,10 +44,6 @@ export default {
 }
 </script>
 ```
-:::
-
-::: tip
-
 :::
 
 <script>
