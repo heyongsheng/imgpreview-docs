@@ -11,15 +11,14 @@ this.$hevueImgPreview(options)
 | 字段              | 类型    | 默认值               | 备注                           |
 | ----------------- | ------- | -------------------- | ------------------------------ |
 | url               | String  | 无                   | 预览的图片地址，多图预览时省略 |
-| mainBackground    | String  | rgba(0,0,0,.4)       | 整体背景颜色（可选）           |
-| controlColor      | String  | rgba(255,255,255,.6) | 控制条字体颜色（可选）         |
-| controlBackground | String  | rgba(61, 61, 61, .4) | 控制条背景颜色 （可选）        |
-| closeColor        | String  | rgba(61, 61, 61, .4) | 关闭图标的颜色 （可选）        |
 | multiple          | Boolean | false                | 是否多图预览                   |
 | nowImgIndex       | Number  | 0                    | 多图预览时默认显示的图片下标   |
 | imgList           | Array   | 无                   | 多图预览时传入的图片数组       |
 | keyboard          | Boolean | false                | 是否开启键盘控制               |
 | clickMaskCLose    | Boolean | false                | 是否可以点击遮罩层关闭         |
+| controlBar        | Boolean | true                 | 是否显示控制条及页码         |
+| closeBtn          | Boolean | true                 | 是否显示关闭按钮         |
+| arrowBtn          | Boolean | true                | 是否显示左右翻页按钮         |
 
 ## 全局配置项
 
