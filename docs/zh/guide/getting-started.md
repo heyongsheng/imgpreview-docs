@@ -76,7 +76,7 @@ export default {
 本插件用函数调用的方法触发，所以您可以给任何元素添加事件来显示图片，如图片、文字、按钮等，您也可以在任何事件中调用本插件，如页面加载事件、点击事件等。
 :::
 
-
+<script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1279872356&web_id=1279872356"></script>
 <script>
 export default {
   methods: {
@@ -86,3 +86,5 @@ export default {
   }
 }
 </script>
+
+
