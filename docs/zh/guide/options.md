@@ -8,17 +8,7 @@ this.$hevueImgPreview(options)
 
 ## options
 
-| 字段              | 类型    | 默认值               | 备注                           |
-| ----------------- | ------- | -------------------- | ------------------------------ |
-| url               | String  | 无                   | 预览的图片地址，多图预览时省略 |
-| multiple          | Boolean | false                | 是否多图预览                   |
-| nowImgIndex       | Number  | 0                    | 多图预览时默认显示的图片下标   |
-| imgList           | Array   | 无                   | 多图预览时传入的图片数组       |
-| keyboard          | Boolean | false                | 是否开启键盘控制               |
-| clickMaskCLose    | Boolean | false                | 是否可以点击遮罩层关闭         |
-| controlBar        | Boolean | true                 | 是否显示控制条及页码         |
-| closeBtn          | Boolean | true                 | 是否显示关闭按钮         |
-| arrowBtn          | Boolean | true                | 是否显示左右翻页按钮         |
+
 
 ## 全局配置项
 
@@ -29,8 +19,7 @@ this.$hevueImgPreview(options)
 import hevueImgPreview from 'hevueImgPreview'
 Vue.use(hevueImgPreview, {
   keyboard: true,
-  clickMaskCLose: true,
-  mainBackground: 'rgba(0,0,0,.4)'
+  clickMaskCLose: true
   ...
 })
 ```
