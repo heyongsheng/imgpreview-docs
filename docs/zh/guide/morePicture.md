@@ -99,3 +99,6 @@ export default {
   }
 }
 </script>
+<style scoped>
+@import '/css/theme-light.css' 
+</style>

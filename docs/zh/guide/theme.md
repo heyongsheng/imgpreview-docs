@@ -14,6 +14,9 @@ import hevueImgPreview from 'hevue-img-preview'
 import 'hevue-img-preview/css/theme-dark.css'
 Vue.use(hevueImgPreview)
 ```
+<template>
+<img src="/img/dark.png" @click="showImg('/img/dark.png')">
+</template>
 
 ### theme-light
 
@@ -24,6 +27,10 @@ import 'hevue-img-preview/css/theme-light.css'
 Vue.use(hevueImgPreview)
 ```
 
+<template>
+<img src="/img/light.png" @click="showImg('/img/light.png')">
+</template>
+
 ::: tip
 请注意，插件本身有默认的样式显示，您即使不引入任何css，插件也可正常显示。
 :::
@@ -32,57 +39,13 @@ Vue.use(hevueImgPreview)
 
 由于我们发布的插件为未打包版本，即直接发布的源码，所以您可以直接在项目的根目录下，进入 `node_modules/hevue-img-preview` 文件夹查看插件的源码，您可以轻松知道每一个元素的类名，从而对其进行样式更改。
 
-## 示例
 
-
-快点击下面的图片试试看吧
-
-<template>
-  <div>
-    <img
-      v-for="(item, index) in urlData"
-      :key="index"
-      :src="item"
-      style="width:30%"
-      @click="showImg(index)"
-    />
-  </div>
-</template>
-
-::: details 点击查看代码
-```javascript
-// main.js
-import hevueImgPreview from 'hevue-img-preview'
-import 'hevue-img-preview/css/theme-dark.css'
-Vue.use(hevueImgPreview)
-```
-:::
-
-::: tip
-由于框架限制，本文档无法单独对某个页面引入css，所以在此页面引入过暗黑主题之后，其他所有页面示例都将使用暗黑主题，如需查看默认主题，只需在其他页面刷新页面即可。
-:::
 <script>
 export default {
-  data () {
-    return {
-      urlData: [
-        '/img/img-2.jpg',
-        '/img/img-3.jpg',
-        '/img/img-4.jpg'
-      ]
-    }
-  },
   methods: {
-    showImg(index) {
-      this.$hevueImgPreview({
-        multiple: true,
-        nowImgIndex: index,
-        imgList: this.urlData
-      })
+    showImg(url) {
+      this.$hevueImgPreview(url)
     }
   }
 }
 </script>
-<style scoped>
-@import '/css/theme-dark.css' 
-</style>
