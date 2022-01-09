@@ -3,7 +3,7 @@
  * @Date: 2021-04-21 16:49:48
  * @email: 1378431028@qq.com
  * @LastEditors: 贺永胜
- * @LastEditTime: 2021-04-23 23:39:39
+ * @LastEditTime: 2022-01-09 22:03:44
  * @Description: file content
  */
 module.exports = {
@@ -12,7 +12,7 @@ module.exports = {
   themeConfig: {
     nav: [{
       text: '测试',
-      link: '/test'
+      link: '/game/index.html'
     }],
     sidebar: {
       '/zh/guide/': [{
