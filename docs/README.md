@@ -9,6 +9,12 @@ features: null
 footer: MIT Licensed | Copyright © 2021 贺永胜
 ---
 
+<div style="position:absolute;right:10px;bottom:10px">
+<img src="/img/gongzhonghao.jpg" style="width:200px" />
+<p>公众号：程序员十里青山</p>
+</div>
+
+
 [年兽大作战](https://heyongsheng.github.io/game/)
 [年兽大作战](https://heyongsheng.github.io/game/)
 [年兽大作战](https://heyongsheng.github.io/game/)
