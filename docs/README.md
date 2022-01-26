@@ -1,3 +1,11 @@
+<!--
+ * @Author: 贺永胜
+ * @Date: 2022-01-10 09:36:34
+ * @email: 1378431028@qq.com
+ * @LastEditors: 贺永胜
+ * @LastEditTime: 2022-01-26 11:39:44
+ * @Descripttion: 
+-->
 ---
 home: true
 heroImage: /img/logo.png
@@ -11,7 +19,7 @@ footer: MIT Licensed | Copyright © 2021 贺永胜
 
 <div style="position:absolute;right:10px;bottom:10px">
 <img src="/img/gz.jpg" style="width:200px" />
-<p>公众号：程序员十里青山</p>
+<p>公众号：百里青山</p>
 </div>
 
 
