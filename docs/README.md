@@ -1,11 +1,3 @@
-<!--
- * @Author: 贺永胜
- * @Date: 2022-01-10 09:36:34
- * @email: 1378431028@qq.com
- * @LastEditors: 贺永胜
- * @LastEditTime: 2022-01-26 11:39:44
- * @Descripttion: 
--->
 ---
 home: true
 heroImage: /img/logo.png
