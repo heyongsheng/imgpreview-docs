@@ -16,6 +16,8 @@
 
 本插件在Chrome浏览器环境下开发，对于其他浏览器兼容性没有测试，如项目对于浏览器兼容性有较高要求，建议谨慎使用。
 
+插件从6.0开始同时兼容vue2和vue3，使用方法请阅读下文，注意，由于作者对于vue3并不熟悉，所以使用vue3版本请尽量多多测试，确保没有问题，如有问题，欢迎提issue
+
 ## 安装
 
 ::: warning
@@ -29,10 +31,25 @@ npm install hevue-img-preview
 
 ## 使用
 
+### vue2 版本
+
+```
 在main.js进行全局引入
 ```javascript
 import hevueImgPreview from 'hevue-img-preview'
 Vue.use(hevueImgPreview)
+```
+
+### vue3 版本
+
+```
+在main.js进行全局引入
+``` javascript
+import hevueImgPreview from 'hevue-img-preview'
+
+const app = createApp(App)
+app.use(hevueImgPreview)
+app.mount('#app')
 ```
 
 在组件中进行使用

@@ -3,7 +3,7 @@
  * @Date: 2021-04-21 16:49:48
  * @email: 1378431028@qq.com
  * @LastEditors: 贺永胜
- * @LastEditTime: 2022-01-24 12:40:04
+ * @LastEditTime: 2022-07-25 16:18:28
  * @Description: file content
  */
 module.exports = {
@@ -24,8 +24,8 @@ module.exports = {
   ],
   themeConfig: {
     nav: [{
-      text: '年兽大作战',
-      link: 'https://heyongsheng.github.io/game/'
+      text: '我的掘金',
+      link: 'https://juejin.cn/user/2911162523723566/posts'
     }],
     sidebar: {
       '/zh/guide/': [{

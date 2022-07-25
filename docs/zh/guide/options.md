@@ -14,6 +14,8 @@ this.$hevueImgPreview(options)
 
 对于某些配置，例如开启键盘事件，点击遮罩层关闭，我们可能要全局保持统一，但却需要在每一次调用时重复配置，为了解决这个问题，我们提供了全局配置项，您可以在引入插件的时候，将全局配置项作为第二个参数传入即可，以免再每次调用的时候重复配置。
 
+### vue2 版本
+
 ```javascript
 // main.js
 import hevueImgPreview from 'hevueImgPreview'
@@ -22,6 +24,19 @@ Vue.use(hevueImgPreview, {
   clickMaskCLose: true
   ...
 })
+```
+
+### vue3 版本
+
+```javascript
+// main.js
+const app = createApp(App)
+app.use(hevueImgPreview, {
+  keyboard: true,
+  clickMaskCLose: true
+  ...
+})
+app.mount('#app')
 ```
 
 ::: tip
