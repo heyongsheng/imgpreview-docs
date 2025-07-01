@@ -60,5 +60,8 @@ export default defineConfig({
   },
   vite: {
     plugins: [groupIconVitePlugin()],
+    ssr: {
+      noExternal: ['hevue-img-preview'],
+    },
   },
 })
