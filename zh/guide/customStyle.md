@@ -29,7 +29,7 @@ iOS26的液态玻璃给我们带来了新的灵感，于是我们也将液态玻
 </div>
 
 <script setup>
- import { previewImages } from '/components/hevue-img-preview/v3'
+ import { previewImages } from 'hevue-img-preview/v3'
 
  const imgList = [
   '/1.png',

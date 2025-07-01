@@ -32,7 +32,7 @@ hevue-img-preview是一个基于 vue 编写的 vue 图片预览组件，已对vu
 </div>
 
 <script setup>
- import { previewImages } from '/components/hevue-img-preview/v3'
+ import { previewImages } from 'hevue-img-preview/v3'
 
  const showImg = () => {
   previewImages('/1.png')

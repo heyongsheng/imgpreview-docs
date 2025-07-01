@@ -31,7 +31,7 @@ Features:
 </div>
 
 <script setup>
- import { previewImages } from '/components/hevue-img-preview/v3'
+ import { previewImages } from 'hevue-img-preview/v3'
 
  const showImg = () => {
   previewImages('/1.png')

@@ -93,7 +93,8 @@ export default defineAdditionalConfig({
       linkText: '带我回首页',
     },
     editLink: {
-      pattern: 'https://github.com/heyongsheng/imgpreview-docs/:path',
+      pattern:
+        'https://github.com/heyongsheng/imgpreview-docs/tree/master/:path',
       text: '在 GitHub 上编辑此页面',
     },
 
