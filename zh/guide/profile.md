@@ -28,6 +28,9 @@ hevue-img-preview是一个基于 vue 编写的 vue 图片预览组件，已对vu
   <div style="width: 100%">
     <p style="text-align: center">多图预览</p>
     <img v-for="(item, index) in imgList" :src="item" style="width:33%;display: inline-block" @click="showImgList(index)" />
+    <!-- <img src="/2.png" style="width:33%;display: inline-block" @click="showImgList(0)" />
+    <img src="/3.png" style="width:33%;display: inline-block" @click="showImgList(1)" />
+    <img src="/4.png" style="width:33%;display: inline-block" @click="showImgList(2)" /> -->
   </div>
 </div>
 
@@ -38,9 +41,9 @@ hevue-img-preview是一个基于 vue 编写的 vue 图片预览组件，已对vu
   previewImages('/1.png')
  }
  const imgList = [
-  '/2.png',
-  '/3.png',
-  '/4.png'
+  require('/2.png'),
+  require('/3.png'),
+  require('/4.png')
  ]
  const showImgList = (index) => {
   previewImages({
