@@ -36,14 +36,15 @@ hevue-img-preview是一个基于 vue 编写的 vue 图片预览组件，已对vu
 
 <script setup>
  import { previewImages } from 'hevue-img-preview/v3'
+ import { withBase } from 'vitepress'
 
  const showImg = () => {
   previewImages('/1.png')
  }
  const imgList = [
-  require('/2.png'),
-  require('/3.png'),
-  require('/4.png')
+  withBase('/2.png'),
+  withBase('/3.png'),
+  withBase('/4.png')
  ]
  const showImgList = (index) => {
   previewImages({

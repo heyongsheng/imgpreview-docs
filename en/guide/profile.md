@@ -32,14 +32,15 @@ Features:
 
 <script setup>
  import { previewImages } from 'hevue-img-preview/v3'
+ import { withBase } from 'vitepress'
 
  const showImg = () => {
   previewImages('/1.png')
  }
  const imgList = [
-  '/2.png',
-  '/3.png',
-  '/4.png'
+  withBase('/2.png'),
+  withBase('/3.png'),
+  withBase('/4.png')
  ]
  const showImgList = (index) => {
   previewImages({

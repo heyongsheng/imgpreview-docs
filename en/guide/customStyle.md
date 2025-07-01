@@ -30,12 +30,13 @@ Click the image below to experience it now~
 
 <script setup>
  import { previewImages } from 'hevue-img-preview/v3'
+ import { withBase } from 'vitepress'
 
  const imgList = [
-  '/1.png',
-  '/2.png',
-  '/3.png',
-  '/4.png'
+  withBase('/1.png'),
+  withBase('/2.png'),
+  withBase('/3.png'),
+  withBase('/4.png')
  ]
  const showImgList = (index) => {
   previewImages({

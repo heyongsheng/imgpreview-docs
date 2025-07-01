@@ -30,12 +30,13 @@ iOS26的液态玻璃给我们带来了新的灵感，于是我们也将液态玻
 
 <script setup>
  import { previewImages } from 'hevue-img-preview/v3'
+ import { withBase } from 'vitepress'
 
  const imgList = [
-  '/1.png',
-  '/2.png',
-  '/3.png',
-  '/4.png'
+  withBase('/1.png'),
+  withBase('/2.png'),
+  withBase('/3.png'),
+  withBase('/4.png')
  ]
  const showImgList = (index) => {
   previewImages({
