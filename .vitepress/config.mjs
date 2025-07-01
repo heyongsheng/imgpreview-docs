@@ -8,7 +8,9 @@ import {
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'hevue-img-preview',
-  description: 'A VitePress Site',
+  description:
+    'hevue-img-preview是一个基于 vue 编写的 vue 图片预览组件，已对vue2和vue3同时兼容，支持 pc 和手机端，支持单图和多图预览，支持缩略图，图片懒加载、自定义样式、自定义旋转角度等',
+  base: '/imgpreview-docs/',
   themeConfig: {
     logo: '/logo-small.png',
     search: {
