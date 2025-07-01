@@ -6,7 +6,7 @@ tagline: 基于Vue.js的可能很好用的网页端图片浏览插件
 actionText: 快速上手 →
 actionLink: /zh/guide/getting-started
 features: null
-footer: MIT Licensed | Copyright © 2021 贺永胜
+footer: MIT Licensed | Copyright © 2024 贺永胜
 ---
 
 <div style="position:absolute;right:10px;bottom:10px">

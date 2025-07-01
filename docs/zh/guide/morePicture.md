@@ -4,7 +4,7 @@
 
 | 字段        | 类型    | 默认值 | 备注                         |
 | ----------- | ------- | ------ | ---------------------------- |
-| multiple    | Boolean | false  | 是否多图预览                 |
+| multiple    | Boolean | false  | 是否多图预览 (7.0版本废除)  |
 | nowImgIndex | Number  | 0      | 多图预览时默认显示的图片下标 |
 | imgList     | Array   | 无     | 多图预览时传入的图片数组     |
 
