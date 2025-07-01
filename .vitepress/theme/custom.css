@@ -1,0 +1,31 @@
+:root {
+  --vp-c-brand-1: #11c47f;
+  --vp-c-brand-2: #008c56;
+}
+
+.VPContent .name {
+  background-image: linear-gradient(
+    to right,
+    #ffb800 0%,
+    #00ffd0 50%,
+    #ffb800 100%
+  );
+  -webkit-text-fill-color: transparent;
+  background-size: 300% 100%;
+  animation: gradient-flow 12s infinite linear;
+}
+.img-inline-wrap img {
+  display: inline-block;
+}
+.img-inline-wrap a {
+  margin-right: 10px;
+}
+
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 300% 0%;
+  }
+}
