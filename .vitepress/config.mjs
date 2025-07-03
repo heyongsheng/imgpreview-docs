@@ -10,7 +10,10 @@ export default defineConfig({
   title: 'hevue-img-preview',
   description:
     'hevue-img-preview是一个基于 vue 编写的 vue 图片预览组件，已对vue2和vue3同时兼容，支持 pc 和手机端，支持单图和多图预览，支持缩略图，图片懒加载、自定义样式、自定义旋转角度等',
-  base: '/imgpreview-docs/',
+  // base: '/imgpreview-docs/',
+  rewrites: {
+    'zh/:rest*': ':rest*',
+  },
   themeConfig: {
     logo: '/logo-small.png',
     search: {
@@ -20,11 +23,14 @@ export default defineConfig({
     // nav: [{ text: '快速开始', link: './guide/profile' }],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      {
+        icon: 'github',
+        link: 'https://github.com/heyongsheng/hevue-img-preview',
+      },
     ],
   },
   locales: {
-    zh: {
+    root: {
       label: '简体中文',
     },
     en: {
@@ -46,6 +52,20 @@ export default defineConfig({
     })();
       `,
     ],
+    // http://img-preview-doc.it1996.com/
+    // [
+    //   'script',
+    //   {},
+    //   `
+    // var _hmt = _hmt || [];
+    // (function() {
+    // var hm = document.createElement("script");
+    // hm.src = "https://hm.baidu.com/hm.js?071e423ecdf99e67b09f05cf1884106c";
+    // var s = document.getElementsByTagName("script")[0];
+    // s.parentNode.insertBefore(hm, s);
+    // })();
+    //   `,
+    // ],
     [
       'script',
       {

@@ -65,10 +65,6 @@ export default defineAdditionalConfig({
         ],
       },
     },
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
-    ],
     docFooter: {
       prev: 'Previous',
       next: 'Next',
