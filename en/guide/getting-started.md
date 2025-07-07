@@ -143,7 +143,7 @@ const handleClick = () => { // [!code focus]
 </template>
 
 <script setup>
-import { previewImages } from 'hevue-img-preview/v2' // [!code focus]
+import { previewImages } from 'hevue-img-preview/v3' // [!code focus]
 
 const handleClick = () => { // [!code focus]
   previewImages('/1.png') // [!code focus]
@@ -160,13 +160,13 @@ const handleClick = () => { // [!code focus]
 ::: code-group
 
 ```js [jsdelivr]
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hevue-img-preview@7.0.0/dist/v2/index.css"/>
-<script src="https://cdn.jsdelivr.net/npm/hevue-img-preview@7.0.0/dist/v2/index.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hevue-img-preview@7/dist/v2/index.css"/>
+<script src="https://cdn.jsdelivr.net/npm/hevue-img-preview@7/dist/v2/index.js"></script>
 ```
 
 ```js [unpkg]
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hevue-img-preview@7.0.0/dist/v2/index.css"/>
-<script src="https://app.unpkg.com/hevue-img-preview@7.0.0/files/v2/index.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hevue-img-preview@7/dist/v2/index.css"/>
+<script src="https://app.unpkg.com/hevue-img-preview@7/files/v2/index.js"></script>
 ```
 :::
 
@@ -176,9 +176,9 @@ const handleClick = () => { // [!code focus]
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hevue-img-preview@7.0.0/dist/v2/index.css"/> <!-- [!code focus] -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hevue-img-preview@7/dist/v2/index.css"/> <!-- [!code focus] -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/hevue-img-preview@7.0.0/dist/v2/index.js"></script> <!-- [!code focus] -->
+    <script src="https://cdn.jsdelivr.net/npm/hevue-img-preview@7/dist/v2/index.js"></script> <!-- [!code focus] -->
   </head>
 
   <body>
@@ -209,13 +209,13 @@ const handleClick = () => { // [!code focus]
 ::: code-group
 
 ```js [jsdelivr]
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hevue-img-preview@7.0.0/dist/v3/index.css"/>
-<script src="https://cdn.jsdelivr.net/npm/hevue-img-preview@7.0.0/dist/v3/index.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hevue-img-preview@7/dist/v3/index.css"/>
+<script src="https://cdn.jsdelivr.net/npm/hevue-img-preview@7/dist/v3/index.js"></script>
 ```
 
 ```js [unpkg]
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hevue-img-preview@7.0.0/dist/v3/index.css"/>
-<script src="https://app.unpkg.com/hevue-img-preview@7.0.0/files/v3/index.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hevue-img-preview@7/dist/v3/index.css"/>
+<script src="https://app.unpkg.com/hevue-img-preview@7/files/v3/index.js"></script>
 ```
 :::
 
@@ -225,9 +225,9 @@ const handleClick = () => { // [!code focus]
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hevue-img-preview@7.0.0/dist/v3/index.css"/> <!-- [!code focus] -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hevue-img-preview@7/dist/v3/index.css"/> <!-- [!code focus] -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/hevue-img-preview@7.0.0/dist/v3/index.js"></script> <!-- [!code focus] -->
+    <script src="https://cdn.jsdelivr.net/npm/hevue-img-preview@7/dist/v3/index.js"></script> <!-- [!code focus] -->
   </head>
 
   <body>
