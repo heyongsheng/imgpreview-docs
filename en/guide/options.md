@@ -44,6 +44,7 @@ Below is a list of all configuration options for quick reference. If you have qu
 | disableTransition     | Disable transition effects                                          | `boolean`  | false         | [Appearance and Transition](./customStyle) |
 | customStyle           | Custom styles                                                       | `object`   | -             | [Appearance and Transition](./customStyle) |
 | themeName             | Theme name                                                          | `string`   | -             | [Appearance and Transition](./customStyle) |
+| zIndex                | Plug-in level          | `number`   | 9999  | -|
 | closeFn               | Callback function when the plugin is closed                         | `Function` | -             | [Close Event](./closeFn)                   |
 | changeFn              | Callback function for image switching                               | `Function` | -             | 
 [Image Switch Event](./changeFn)           |
