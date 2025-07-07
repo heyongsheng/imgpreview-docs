@@ -39,20 +39,6 @@ export default defineConfig({
   },
   head: [
     // heyongsheng.github.io/
-    [
-      'script',
-      {},
-      `
-    var _hmt = _hmt || [];
-    (function() {
-    var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?14f7a4912d6da4ec11a2bce92d3ce7fd";
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(hm, s);
-    })();
-      `,
-    ],
-    // http://img-preview-doc.it1996.com/
     // [
     //   'script',
     //   {},
@@ -60,12 +46,26 @@ export default defineConfig({
     // var _hmt = _hmt || [];
     // (function() {
     // var hm = document.createElement("script");
-    // hm.src = "https://hm.baidu.com/hm.js?071e423ecdf99e67b09f05cf1884106c";
+    // hm.src = "https://hm.baidu.com/hm.js?14f7a4912d6da4ec11a2bce92d3ce7fd";
     // var s = document.getElementsByTagName("script")[0];
     // s.parentNode.insertBefore(hm, s);
     // })();
     //   `,
     // ],
+    // http://img-preview-doc.it1996.com/
+    [
+      'script',
+      {},
+      `
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?071e423ecdf99e67b09f05cf1884106c";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+    })();
+      `,
+    ],
     [
       'script',
       {
